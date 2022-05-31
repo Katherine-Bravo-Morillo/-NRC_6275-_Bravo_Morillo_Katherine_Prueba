@@ -23,6 +23,14 @@ def registro_Cuenta():
 #Funcion para llamar al archivo de inicio de seccion
 def iniciar_Seccion():
     return render_template('/iniciar_Seccion.html')
+
+#Funcion para llamar al archivo de registro Tienda
+
+@app.route('/registro_Tienda')
+
+#Funcion para llamar al archivo de inicio de seccion
+def registro_Tienda():
+    return render_template('/registro_Tienda.html')
 #iniciamos la aplicacion
 if __name__ == '__main__':
     app.run(debug=True)

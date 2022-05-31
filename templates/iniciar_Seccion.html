@@ -21,6 +21,7 @@
 </head>
 
 <body>
+    <!-- Esta seccion permite eñl ingreso de unformulario apara poder iniciar seccion-->
     <div class="modal-dialog text-center">
         <div class="col-sm-8 main-section">
             <div class="modal-content">
@@ -40,7 +41,7 @@
                     <a href="#">Recordar contrasena?</a>
                 </div>
                 <div th:if="${param.error}" class="alert alert-danger" role="alert">
-                    Invalid username and password.
+                    La contraseña que ingreso es invalida
                 </div>
                 <div th:if="${param.logout}" class="alert alert-success" role="alert">
                     You have been logged out.
