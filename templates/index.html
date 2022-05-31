@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!--               Utilizacion de bostrap                    -->
+    <!-- --------------------------------------------- -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar" style="background-color: #e3f2fd;">
+      
+      </nav>
+      <!-- Estructura del formulario para el ingreso de datos  -->
+      <div class="container" id="advanced-search-form">
+        <center> <h2>Formulario</h2></center> 
+          <form>
+              <div class="form-group">
+                  <label for="first-name">Nombre</label>
+                  <input type="text" class="form-control" placeholder="First name" id="first-name">
+              </div>
+              <div class="form-group">
+                  <label for="last-name">Telefono</label>
+                  <input type="text" class="form-control" placeholder="Last name" id="last-name">
+              </div>
+              
+              <div class="dropdown">
+                <label for="number">Estado</label>
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                 Estado Cliente
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Normal</a></li>
+                  <li><a class="dropdown-item" href="#">Caso</a></li>
+                  <li><a class="dropdown-item" href="#">Cercano</a></li>
+                </ul>
+              </div
+             
+              </div>
+              <div class="clearfix"></div>
+              <br>  <br> <center> <button type="submit" class="btn btn-info btn-lg btn-responsive" id="search"> <span class="glyphicon glyphicon-search"></span> Search</button></center> 
+          </form>
+
+          <button type="button" class="btn btn-warning"  href="#">Registrar Cuenta</button>
+          <button type="button" class="btn btn-warning"  href="#">Iniciar seccion</button>
+          <button type="button" class="btn btn-warning"  href="#">Registrar una tienda</button>
+          <button type="button" class="btn btn-warning"  href="#">Ver el historial de las tiendas</button>
+      </div>
+    
+</body>
+<style>
+    *{
+        background-color: #EBB600 
+#B3B0AB;
+    }
+</style>
+</html>
